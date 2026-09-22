@@ -27,9 +27,9 @@ dependencies = ["ollama>=0.4.7", "pydantic>=2.7"]
 dev = ["build>=1.2", "pytest>=8", "pytest-asyncio>=0.24", "ruff>=0.9", "mypy>=1.14"]
 
 [project.urls]
-Homepage = "https://github.com/patrikhallsjo/ollaborate"
-Repository = "https://github.com/patrikhallsjo/ollaborate"
-Issues = "https://github.com/patrikhallsjo/ollaborate/issues"
+Homepage = "https://github.com/patha325/ollaborate"
+Repository = "https://github.com/patha325/ollaborate"
+Issues = "https://github.com/patha325/ollaborate/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/ollaborate"]
@@ -49,4 +49,3 @@ select = ["E", "F", "I", "UP", "B", "SIM"]
 python_version = "3.10"
 strict = true
 packages = ["ollaborate"]
-
